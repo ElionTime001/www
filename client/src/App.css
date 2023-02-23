@@ -1,0 +1,249 @@
+html,
+body,
+#root {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  background: lightpink;
+}
+
+.App {
+  text-align: center;
+  height: 100%;
+}
+
+.Meanings {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.flower-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.flower {
+  width: calc(100% / 2 - 20px);
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-left: 10px;
+  margin-right: 10px;
+  text-align: center;
+  background-color: crimson;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.name {
+  font-weight: bold;
+  font-size: 1.2em;
+  margin-bottom: 5px;
+  padding: 10px;
+  background-color: crimson;
+  color: white;
+}
+
+.meaning {
+  font-size: 0.9em;
+  padding: 10px;
+  background-color: lightpink;
+}
+
+@media (max-width: 768px) {
+  .flower {
+    width: 100%;
+  }
+}
+
+.meaning-title{
+  color: white;
+  background: crimson;
+  font-size: xxx-large;
+  margin-top: 10px;
+}
+
+.Home {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: Arial, sans-serif;
+  height: 100%;
+}
+
+.banner {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  margin-bottom: 2em;
+}
+
+.banner img {
+  margin-top: 40px;
+  max-width: 50%;
+  height: auto;
+}
+
+.container {
+  width: 100%;
+  max-width: 800px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.hometitle {
+  background: crimson;
+  font-size: 1.5em;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 1em;
+  color: white;
+}
+
+.homeflowermeaning {
+  color: crimson;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: xxx-large;
+}
+
+.homename {
+  font-size: 1.2em;
+  font-weight: bold;
+  margin-bottom: 0.5em;
+}
+
+.homemeaning {
+  font-size: 1em;
+  margin-bottom: 0.5em;
+}
+
+.Flower-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.Flower-image-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 10px solid crimson
+}
+
+.Flower-image {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.Flower-details-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.Flower-name {
+  font-size: 2em;
+  background: crimson;
+  color:white ;
+}
+
+.Flower-meaning {
+  font-size: 1.2em;
+}
+
+.Flower-description {
+  font-size: 1em;
+}
+
+.navbar {
+  width: 100%;
+  height: 70px;
+  background-color: crimson;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.navbar a {
+  margin-left: 20px;
+  text-decoration: none;
+  color: white;
+}
+
+.maincontainer {
+  height: 100%;
+  background: white;
+  max-width: 600px;
+  border-left: 5px solid crimson;
+  border-right: 5px solid crimson;
+}
+
+.edit-button {
+  background-color: crimson; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin-right: 10px;
+  margin-left: 10px;
+}
+
+.Edit {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  width: 400px;
+  margin: 20px;
+}
+
+form input {
+  width: 100%;
+  padding: 16px;
+  background-color: #edf2f7;
+  border: none;
+  margin-bottom: 16px;
+  font-size: 14px;
+  border: 2px solid crimson;
+  box-sizing: border-box;
+}
+
+form textarea {
+  width: 100%;
+  padding: 16px;
+  background-color: #edf2f7;
+  border: none;
+  margin-bottom: 16px;
+  font-size: 14px;
+  border: 2px solid crimson;
+  box-sizing: border-box;
+  height: 150px;
+}
+
+form button[type="submit"] {
+  background-color: crimson;
+  color: #ffffff;
+  font-size: 14px;
+  border: none;
+  padding: 16px;
+  width: 100%;
+}
+
+form label{
+  background: crimson;
+  color: white;
+}
